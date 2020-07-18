@@ -8,11 +8,11 @@
 3. Implementing guidance during project.
 
 ## Content
- 1. Design Resilient Architecture - 34%
-  - Storage
-  - De-coupling
-  - Multi tier architecture
-  - High Availablity and Fault tolerance.
+ * **Design Resilient Architecture - 34%**
+   * Storage
+   * De-coupling
+   * Multi tier architecture
+   * High Availablity and Fault tolerance.
  
  2. Specify Secure Application and Architecture - 26%  
   - Secure application tiers  
