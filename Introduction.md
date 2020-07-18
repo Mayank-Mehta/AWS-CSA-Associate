@@ -14,24 +14,24 @@
    * Multi tier architecture
    * High Availablity and Fault tolerance.
  
- 2. Specify Secure Application and Architecture - 26%  
-  - Secure application tiers  
-  - Secure data  
-  - network Infra  
+ * **Specify Secure Application and Architecture - 26%**  
+  * Secure application tiers  
+  * Secure data  
+  * network Infra  
   
-3. Define Performant Architecture - 24%
-  - Storage and database
-  - Caching
-  - Elasticity and Scalablity
+* **Define Performant Architecture - 24%**
+  * Storage and database
+  * Caching
+  * Elasticity and Scalablity
 
- 4. Design cost optimized Architecture - 10%
-  - storage
-  - compute
+* **Design cost optimized Architecture - 10%**
+  * storage
+  * compute
 
-5. Define operationally excellent architecture - 6%
+* **Define operationally excellent architecture - 6%**
   
 ## Key Areas of Focus  
-  i. Compute  
-  ii. Networking  
-  iii. Storage  
-  iv. Database  
+  * Compute  
+  * Networking  
+  * Storage  
+  * Database  
