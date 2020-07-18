@@ -8,7 +8,7 @@
 3. Implementing guidance during project.
 
 ## Content
- ### Design Resilient Architecture - 34% 
+ ### Design Resilient Architecture
   - Storage
   - De-coupling
   - Multi tier architecture
