@@ -7,27 +7,27 @@
 2. Defining solution based on customer requirements.
 3. Implementing guidance during project.
 
-# Content
- ## Design Resilient Architecture - 34% ##
+## Content
+ ### Design Resilient Architecture - 34% 
   - Storage
   - De-coupling
   - Multi tier architecture
   - High Availablity and Fault tolerance.
  
- ## Specify Secure Application and Architecture - 26%  
+ ### Specify Secure Application and Architecture - 26%  
   - Secure application tiers  
   - Secure data  
   - network Infra  
   
-## Define Performant Architecture - 24%
+### Define Performant Architecture - 24%
   - Storage and database
   - Caching
   - Elasticity and Scalablity
 
- ## Design cost optimized Architecture - 10%
+ ### Design cost optimized Architecture - 10%
   - storage
   - compute
 
-## Define operationally excellent architecture - 6%
+### Define operationally excellent architecture - 6%
   
   
