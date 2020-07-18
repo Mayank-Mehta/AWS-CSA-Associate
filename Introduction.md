@@ -30,4 +30,8 @@
 
 ### Define operationally excellent architecture - 6%
   
-  
+1. Key Areas of Focus  
+  i. Compute  
+  ii. Networking  
+  iii. Storage  
+  iv. Database  
