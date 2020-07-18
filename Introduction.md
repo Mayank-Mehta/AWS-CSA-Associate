@@ -8,29 +8,29 @@
 3. Implementing guidance during project.
 
 ## Content
- ### Design Resilient Architecture - 34%
+ 1. Design Resilient Architecture - 34%
   - Storage
   - De-coupling
   - Multi tier architecture
   - High Availablity and Fault tolerance.
  
- ### Specify Secure Application and Architecture - 26%  
+ 2. Specify Secure Application and Architecture - 26%  
   - Secure application tiers  
   - Secure data  
   - network Infra  
   
-### Define Performant Architecture - 24%
+3. Define Performant Architecture - 24%
   - Storage and database
   - Caching
   - Elasticity and Scalablity
 
- ### Design cost optimized Architecture - 10%
+ 4. Design cost optimized Architecture - 10%
   - storage
   - compute
 
-### Define operationally excellent architecture - 6%
+5. Define operationally excellent architecture - 6%
   
-1. Key Areas of Focus  
+## Key Areas of Focus  
   i. Compute  
   ii. Networking  
   iii. Storage  
