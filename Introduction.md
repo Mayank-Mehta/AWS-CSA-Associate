@@ -15,23 +15,23 @@
    * High Availablity and Fault tolerance.
  
  * **Specify Secure Application and Architecture - 26%**  
-  * Secure application tiers  
-  * Secure data  
-  * network Infra  
+    * Secure application tiers  
+    * Secure data  
+    * network Infra  
   
 * **Define Performant Architecture - 24%**
-  * Storage and database
-  * Caching
-  * Elasticity and Scalablity
+    * Storage and database
+    * Caching
+    * Elasticity and Scalablity
 
 * **Design cost optimized Architecture - 10%**
-  * storage
-  * compute
+    * storage
+    * compute
 
 * **Define operationally excellent architecture - 6%**
   
 ## Key Areas of Focus  
-  * Compute  
-  * Networking  
-  * Storage  
-  * Database  
+    * Compute  
+    * Networking  
+    * Storage  
+    * Database  
