@@ -77,6 +77,7 @@
 	* Vault can be configured to limit costs.
 
 ## Elastic Block Store (EBS)
+ * EBS is bound to an instance
  * Used for durable storage in EC2 instances
  * Block-level storage from one AWS service to another (hard drive)
  * Similar to SAN
@@ -90,6 +91,16 @@
  * Snapshots: Recovery data or create another EBS volume
  * Volume recovery: Attaching volumes from one instance to another
  * Encryption 
+ 
+## Elastic File System (EFS)
+* EFS is shareable
+* Hierarchical 
+* Can be accessed through NFSv4
+* EC2 instances can use EFS share.
+* EFS is NOT supported on windows instances
+
+## Comparison
+<img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/StorageComparison.jpeg"/>
  
 
 ## CloudFront
