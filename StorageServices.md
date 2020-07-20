@@ -94,22 +94,19 @@
  
 ## Elastic File System (EFS)
 * EFS is shareable
+* EFS is like NAS storage within the cloud for the cloud
 * Hierarchical 
 * Can be accessed through NFSv4
-* EC2 instances can use EFS share.
+* Multiple EC2 instances can use EFS share.
 * EFS is NOT supported on windows instances
+* EFS share can be limited to a VPC
 
 ## Comparison
 <img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/StorageComparison.jpeg"/>
  
-
-## CloudFront
-
-
-
 ## Storage Gateway
-
-## Snow Family
-
-## Databases
-
+* Software applicance that creates gateway on customers location
+* Three types of Gateway
+	* File Based gateway
+	* Volume Based Gateway
+	* Tape Gateway
