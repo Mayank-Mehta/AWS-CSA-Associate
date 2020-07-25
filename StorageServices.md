@@ -87,6 +87,9 @@
 	* General Purpose (No guranteed IOPS) Max IOPS: 10000
 	* Provisioned IOPS - Guranteed I/O operations per second, MAX: 32000
 	* EBS-optimized instance should be used
+	
+#### comparison
+<img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/EBS_VolumeCharaterstics.PNG" />
  ### Protecting EBS Data
  * Snapshots: Recovery data or create another EBS volume
  * Volume recovery: Attaching volumes from one instance to another
