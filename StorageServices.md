@@ -82,10 +82,10 @@
  * Block-level storage from one AWS service to another (hard drive)
  * Similar to SAN
  ### EBS volume types
- * Magnetic
+ * Magnetic (HDD)
  * SSD(Solid State Drive)
-	* General Purpose (No guranteed IOPS)
-	* Provisioned IOPS - Guranteed I/O operations per second
+	* General Purpose (No guranteed IOPS) Max IOPS: 10000
+	* Provisioned IOPS - Guranteed I/O operations per second, MAX: 32000
 	* EBS-optimized instance should be used
  ### Protecting EBS Data
  * Snapshots: Recovery data or create another EBS volume
@@ -106,7 +106,9 @@
  
 ## Storage Gateway
 * Software applicance that creates gateway on customers location
+* Its virtual machine image that you download and install on local network and activate to connect with AWS client
 * Three types of Gateway
-	* File Based gateway
-	* Volume Based Gateway
-	* Tape Gateway
+	* File Based gateway - NFS - interface to S3 bucket
+	* Volume Based Gateway - Internet SCSI protocol
+	* Tape Based Gateway: backups on AWS cloud directly
+	
