@@ -90,7 +90,8 @@
 	
 #### comparison
 <img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/EBS_VolumeCharaterstics.PNG" />
- ### Protecting EBS Data
+
+### Protecting EBS Data
  * Snapshots: Recovery data or create another EBS volume
  * Volume recovery: Attaching volumes from one instance to another
  * Encryption 
@@ -115,3 +116,4 @@
 	* Volume Based Gateway - Internet SCSI protocol
 	* Tape Based Gateway: backups on AWS cloud directly
 	
+<img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/binaryTerminology.jpeg" />
