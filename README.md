@@ -10,3 +10,5 @@ https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/VPC.md
 ## StorageServices
 https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/StorageServices.md
 
+## EC2
+https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/EC2.md
