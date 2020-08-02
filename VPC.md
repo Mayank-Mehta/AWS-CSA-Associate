@@ -72,8 +72,10 @@
 - elastic IP is assicated with NAT instance for the public facing side.
 - INstances on the private subnet of the VPC use the NAT to connect to the internet
 - NAT can be implemented using dedicated NAT instance or using AWS NAT gateway
+
 - *NAT Gateway*
 <img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/NATGateway.jpeg"/>
+
 - *NAT Instance*
 <img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/NATInstance.jpeg"/>
 
