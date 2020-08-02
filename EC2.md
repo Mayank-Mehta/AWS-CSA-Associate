@@ -60,4 +60,14 @@ https://aws.amazon.com/ec2/pricing/
   - Bid on unused compute time
   - up to 90% discount on on-demand
   
+# EBS 
+ - persistent block storage
+ - Requires an EBS optimized instance
+ - Magnetic or SSD - General purpose or PIOPS
+ 
+# EC2 setup
+- ec2-user is default user
+- key pair would be required to access this EC2 instance from outside
+
+  
  
