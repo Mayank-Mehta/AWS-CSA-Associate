@@ -22,25 +22,25 @@
  ### EC2 Instance types
  
  - General Purpose
-  - T2, M5, M4, M3
-  - balance of memory and network resource
-  - T2 provide burst performance - credits are build for idle time, credit used to burst performance.
+   - T2, M5, M4, M3
+   - balance of memory and network resource
+   - T2 provide burst performance - credits are build for idle time, credit used to burst performance.
  
  - Comupte Optimized
-  - C3,C4,C5
-  - CPU instensive application -> Media coding, Intensive batch jobs, gaming servers etc..
+   - C3,C4,C5
+   - CPU instensive application -> Media coding, Intensive batch jobs, gaming servers etc..
   
  - Memory Optimized
-  - R3, R4, X1e, X1
-  - High memory requirement - Processing large data sets, In memory database, Big data processing.
+   - R3, R4, X1e, X1
+   - High memory requirement - Processing large data sets, In memory database, Big data processing.
   
  - Storage optimized
-  - H1, I3, D2
-  - High sequential read/write to local storage -> Relational database, Datawarehousing, Image storage and processing
+   - H1, I3, D2
+   - High sequential read/write to local storage -> Relational database, Datawarehousing, Image storage and processing
   
  - Advance computing
-  - P3, P2, G3 and F1
-  - special hardware compute requirement -> GPU, FPGA
+   - P3, P2, G3 and F1
+   - special hardware compute requirement -> GPU, FPGA
   
 ## EC2 pricing
 
