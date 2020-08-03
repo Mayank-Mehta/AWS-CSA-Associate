@@ -130,17 +130,18 @@ https://aws.amazon.com/ec2/pricing/
     - Doesn't perform as well as HVM AMIs
     
    ## Instance Root Volume
-    - Contains the boot sector
-    - Boot sector initiates the boot loader
-    - Boot loader launches the OS.
-    - Two Types: instance store-backed AMI, EBS-backed AMI
-    - Store backed AMI 
-     - Root volume is stored in S3
-     - No support for stop action - instance always terminated
-     - On failure, data in the instance store is lost.
-    - EBS backed AMI
-     - Root volume is stored in an EBS volume
-     - Support for the stop action
-     - On failure, data in the EBS volume is not lost.
+   
+   - Contains the boot sector
+   - Boot sector initiates the boot loader
+   - Boot loader launches the OS.
+   - Two Types: instance store-backed AMI, EBS-backed AMI
+   - Store backed AMI 
+    - Root volume is stored in S3
+    - No support for stop action - instance always terminated
+    - On failure, data in the instance store is lost.
+   - EBS backed AMI
+    - Root volume is stored in an EBS volume
+    - Support for the stop action
+    - On failure, data in the EBS volume is not lost.
     
  
