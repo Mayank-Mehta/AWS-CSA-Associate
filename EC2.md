@@ -167,4 +167,9 @@ https://aws.amazon.com/ec2/pricing/
  - by default, only bound to the primary network interface
    - can be bound to other netweork interfaces
  
+ ### Security Groups
+ <img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/securityGroups.jpeg" />
+ 
+ ### Security Groups V/s Network ACLs
+ <img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/securityVsACL.jpeg" />
 
