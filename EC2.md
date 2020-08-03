@@ -136,12 +136,12 @@ https://aws.amazon.com/ec2/pricing/
    - Boot loader launches the OS.
    - Two Types: instance store-backed AMI, EBS-backed AMI
    - Store backed AMI 
-    - Root volume is stored in S3
-    - No support for stop action - instance always terminated
-    - On failure, data in the instance store is lost.
+     - Root volume is stored in S3
+     - No support for stop action - instance always terminated
+     - On failure, data in the instance store is lost.
    - EBS backed AMI
-    - Root volume is stored in an EBS volume
-    - Support for the stop action
-    - On failure, data in the EBS volume is not lost.
+     - Root volume is stored in an EBS volume
+     - Support for the stop action
+     - On failure, data in the EBS volume is not lost.
     
  
