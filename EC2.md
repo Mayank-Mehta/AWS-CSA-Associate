@@ -69,5 +69,42 @@ https://aws.amazon.com/ec2/pricing/
 - ec2-user is default user
 - key pair would be required to access this EC2 instance from outside
 
+# Tenancy
+ ## Shared Tenancy
+  - Multiple customers share the time and space on the physical machine
+  - Default behaviour
+  - Pros:
+    - Reduced costs
+    - Simpler deployment
+  - Cons
+    - Lower performance
+    - Less control - at physical infra level
+    - on restart, we dont know which host your instance will come on.
+  ## Dedicated Host
+   - Physical Machine - Run the virtual machines
+   - Used by one customer
+   - Must be explicitly configured
+   - Not available in free tier
+   - Pros:
+    - More accurate licensing management
+    - Compliance management
+    - determine host placement during instance restarts.
+   Cons:
+    - More cost.
+    - Also allows BYOL : bring your own licence.
+    
+ ## Dedicated Instance 
+   - Runs on a physical machine
+    - Only instance running on that machine
+    - On restart, may be moved to one of customer another machine.
+   - Used by one customer
+   - Must be explicitly configured
+   - Pros:
+    - runs on hardware dedicated to the customer
+    - Provides performance advantage of a dedicated host
+   - Cons:
+    - less accurate licensing management.
+   
   
+    
  
