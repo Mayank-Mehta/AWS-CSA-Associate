@@ -144,4 +144,27 @@ https://aws.amazon.com/ec2/pricing/
      - Support for the stop action
      - On failure, data in the EBS volume is not lost.
     
+ # Launching instances
+  - Bootstrapping
+    - Providing code to be run on an instance at launch: Providing command to run additional application to be installed
+  - VM import/export
+    - Importing existing VM into EC2
+ ## Instance Management
+  - Changing instance type
+   - Stop the instance
+   - Change the type
+  - Change the security groups on the fly  
+  - Activate termination protection
+  
+# Security Groups
+ - five per instance
+ - Can layer security groups
+ - Instances receive the default security group for the VPC
+ - Only allow rules are permitted
+ - Seperate inbound/outbound rules are used
+ - Stateful
+ - By default - all outbound traffic is allowed
+ - by default, only bound to the primary network interface
+   - can be bound to other netweork interfaces
  
+
