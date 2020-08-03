@@ -157,6 +157,7 @@ https://aws.amazon.com/ec2/pricing/
   - Activate termination protection
   
 # Security Groups
+ - Default security group per VPC
  - five per instance
  - Can layer security groups
  - Instances receive the default security group for the VPC
@@ -172,4 +173,18 @@ https://aws.amazon.com/ec2/pricing/
  
  ### Security Groups V/s Network ACLs
  <img src="https://github.com/Mayank-Mehta/AWS-CSA-Associate/blob/master/securityVsACL.jpeg" />
+
+
+# ECS - Elastic container service
+- Deploying application to instances - docker container withing AWS
+- No Virtual machine builds required
+- Uses Amazon Fargate to automatically build environment.
+- Can use EC2 instances for more control.
+
+# Elastic Beanstalk Environment
+- It launches complete environment needed for your application
+- Quickly build application -> instance, elasticIP, etc...
+
+
+
 
