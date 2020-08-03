@@ -105,6 +105,42 @@ https://aws.amazon.com/ec2/pricing/
    - Cons:
     - less accurate licensing management.
    
-  
+ # AMI Virtualisation
+  - Blueprint with server configuration details
+  - Similar to localized imaging solutions
+  - All instances are created from an AMI
+  - Sources
+   - Amazon (free)
+   - AWS marketplace (free/$)
+   - Community (free)
+  - Launching AMI
+   - public : Anyone
+   - Explicit: Specified
+   - Implicity: Owner
+   - Default is implicit
+   
+   ## HVM AMIs
+   - Hardware Virtual Machine
+    - AMIs fully virtualizes hardware
+    - Requires hardware-assisted virtualization
+    
+   ## PV AMIs
+   - Paravirtual
+    - Run on hosts without specific support for virtualization
+    - Doesn't perform as well as HVM AMIs
+    
+   ## Instance Root Volume
+    - Contains the boot sector
+    - Boot sector initiates the boot loader
+    - Boot loader launches the OS.
+    - Two Types: instance store-backed AMI, EBS-backed AMI
+    - Store backed AMI 
+     - Root volume is stored in S3
+     - No support for stop action - instance always terminated
+     - On failure, data in the instance store is lost.
+    - EBS backed AMI
+     - Root volume is stored in an EBS volume
+     - Support for the stop action
+     - On failure, data in the EBS volume is not lost.
     
  
